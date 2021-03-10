@@ -4,7 +4,7 @@ Docker image for [tzsp2pcap](https://github.com/thefloweringash/tzsp2pcap) tool.
 TZSP to pcap converter for Mikrotik router and other sniffing tools.
 
 # Usage
-tzsp2pcap will listen UDP port for TZSP traffic and save in to .pcap file ready for analysis with Wireshark.
+tzsp2pcap will listen UDP port for TZSP traffic and save it to .pcap file ready for analysis with Wireshark.
 
     $ docker run -p 37008:37008/udp -v /var/tzsp2pcap:/var/tzsp2pcap l0ser140/tzsp2pcap:latest
 
